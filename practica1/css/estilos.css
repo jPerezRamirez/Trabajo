@@ -1,0 +1,118 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/icon.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.brand-logo{
+  margin: 22PX;
+  margin-left: -80px;
+}
+nav ul a{
+  color: black; 
+  
+}
+.sign-up-cta-container.on-home {
+  margin-left: 0;
+  text-align: right;
+}
+.formul{
+ width: 360px;
+}
+
+/*es del nav*/
+.white{
+  height: 94px;
+ }
+/*alineando el nav  de las listas*/
+.hide-on-med-and-down{
+margin: 18px;
+}
+.row .button-google{
+  display: block;
+  font-size: 16px; /*tamaño de letra*/
+  border-radius: 4px;
+  width: 360px;
+  height: 42px;
+  border: 1px solid #DDDDE5;
+  color: black;
+  text-align: center;
+}
+.btn{ /*boton de registrar*/
+  width: 360px;
+  height: 54px;
+}
+h2{
+    font-size: 35px;
+    line-height: 50px;
+}
+p{
+  text-align: left;
+  font-size: 20px;
+  font-family: webfont;
+  line-height: 28px;
+  
+}
+.gratuita{
+  transition: border .3s ease-in-out,color .3s ease-in-out;
+  font-family: Gotham_SSm_5r,Helvetica,Arial,sans-serif;
+  border-bottom: 2px solid #2dbe60;
+}
+
+h1 {
+  font-family: Gotham_SSm_5r,Helvetica,Arial,sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+}
+.millon{ /*de millones de personas*/
+  padding:90px 0;
+  background-color:#EFEAEA;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.millon h2{
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto 100px;
+}
+
+.redes{
+  text-align: right;
+  border-bottom: 1px solid #eee;
+  padding: 32px 0 28px;
+
+}
+.redes img{/*margen entre las redes*/
+  margin: 0 5px;
+}
+
+.lineas{
+margin: 0  auto;
+padding: 32px 40px;
+border-bottom: 1px solid #eee;
+}
+.lineas a{
+  color: black;
+}
+.lineas li{
+ display: inline;
+ margin: 0 10px;
+}
